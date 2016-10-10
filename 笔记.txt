@@ -1,0 +1,9 @@
+给元素设置定位后，才能用z-index
+
+absolute 后，margin的left/top/right/bottom 都无效
+
+在form里面的button元素应该是<input type="button" value="登录" class="btn-submit" onclick = "location.href='../index.html'" />
+
+在浏览器里面修改元素位置更高效
+
+如果点击事件无效，调试的办法高效办法是 把代码放到页面上面和尾部 比较纯净的地方调试，以防其他元素对其的干扰
